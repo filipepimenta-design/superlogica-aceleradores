@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+dev.db
+dev.db-journal
+.DS_Store
+coverage/
+.netlify/
+.vercel/
