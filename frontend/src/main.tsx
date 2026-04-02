@@ -12,7 +12,7 @@ function Root() {
     trpc.createClient({
       links: [
         httpBatchLink({
-          url: 'https://superlogica-backend.onrender.com/trpc',
+          url: 'https://superlogica-backend-9y9f.onrender.com/trpc',
           headers() {
             const token = localStorage.getItem('token');
             return token ? { Authorization: `Bearer ${token}` } : {};
